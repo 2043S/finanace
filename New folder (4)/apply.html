@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apply for an Appointment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .application-form {
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .application-form label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    .application-form input[type="text"],
+    .application-form input[type="email"],
+    .application-form input[type="tel"],
+    .application-form textarea,
+    .application-form select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .application-form select {
+      height: auto;
+    }
+    
+    .application-form input[type="radio"] {
+      margin-right: 5px;
+    }
+    
+    .submit-button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    .submit-button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <h1>Apply for an appointment </h1>
+  <form action="submit_application.php" method="post" class="application-form">
+    <label for="APPOINTMENT"> Appointment Number:</label>
+    <input type="text" id="APPOINTMENT" name="APPOINTMENT" required>
+    <br>
+    
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" maxlength="20" required>
+    <br>
+    
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" maxlength="20" required>
+    <br>
+    
+    <label for="dateOfBirth">Date of Birth:</label>
+    <input type="text" id="dateOfBirth" name="dateOfBirth" placeholder="dd/mm/yyyy" required>
+    <br>
+    
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <br>
+    
+    <label for="streetAddress">Street Address:</label>
+    <input type="text" id="streetAddress" name="streetAddress" maxlength="40" required>
+    <br>
+    
+    <label for="suburb">Suburb/Town:</label>
+    <input type="text" id="suburb" name="suburb" maxlength="40" required>
+    <br>
+    
+    <label for="state">State:</label>
+    <select id="state" name="state" required>
+      <option value="VIC">VIC</option>
+      <option value="NSW">NSW</option>
+      <option value="QLD">QLD</option>
+      <option value="NT">NT</option>
+      <option value="WA">WA</option>
+      <option value="SA">SA</option>
+      <option value="TAS">TAS</option>
+      <option value="ACT">ACT</option>
+    </select>
+    <br>
+    
+    <label for="postcode">Postcode:</label>
+    <input type="text" id="postcode" name="postcode" pattern="[0-9]{4}" required>
+    <br>
+    
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9\s]{8,12}" required>
+    <br>
+    
+    
+    
+    <input type="submit" value="Apply">
+  </form>
+</body>
+</html>

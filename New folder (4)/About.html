@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Types of Loans</title>
+<style>
+    .loan-info {
+        display: none;
+    }
+</style>
+</head>
+<body>
+<h2>Types of Loans</h2>
+<button onclick="showLoanInfo('personal')">Personal Loan</button>
+<button onclick="showLoanInfo('home')">Home Loan</button>
+<button onclick="showLoanInfo('car')">Car Loan</button>
+<button onclick="showLoanInfo('corporate')"> corporate loan</button>
+
+<div id="personalLoan" class="loan-info">
+    <h3>Personal Loan</h3>
+    <p>A personal loan is an unsecured loan typically used for various personal expenses such as debt consolidation, home improvements, or unexpected expenses.</p>
+</div>
+
+<div id="homeLoan" class="loan-info">
+    <h3>Home Loan</h3>
+    <p>A home loan, also known as a mortgage, is a type of loan used to finance the purchase of a home or real estate property.</p>
+</div>
+
+<div id="carLoan" class="loan-info">
+    <h3>Car Loan</h3>
+    <p>A car loan is a type of financing used to purchase a vehicle. The vehicle itself serves as collateral for the loan.</p>
+</div>
+
+<div id="corporateLoan" class="loan-info">
+    <h3> corporate Loan</h3>
+    <p> A corporate loans are tailor-made for the growth of your bussiness.</p>
+</div>
+
+<script>
+    function showLoanInfo(type) {
+        var loanInfos = document.getElementsByClassName('loan-info');
+        for (var i = 0; i < loanInfos.length; i++) {
+            loanInfos[i].style.display = 'none';
+        }
+        document.getElementById(type + 'Loan').style.display = 'block';
+    }
+</script>
+</body>
+</html>

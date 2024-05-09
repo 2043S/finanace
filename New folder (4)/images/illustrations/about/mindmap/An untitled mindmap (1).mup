@@ -1,0 +1,200 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Ethical and Privacy Consideration",
+      "id": 1,
+      "attr": {
+        "parentConnector": {
+          "color": "#00534e",
+          "themeAutoColor": "#00534e"
+        },
+        "style": {
+          "fontMultiplier": 1.25
+        },
+        "position": [
+          -421,
+          -29,
+          1
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Patient Data Privacy",
+          "id": 2,
+          "attr": {
+            "parentConnector": {
+              "color": "#00534e",
+              "themeAutoColor": "#00534e"
+            },
+            "style": {
+              "fontMultiplier": 1.25
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Medical Records",
+              "id": 7,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "2": {
+              "title": "Medication Information",
+              "id": 8,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "3": {
+              "title": "System Encryption",
+              "id": 9,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            }
+          }
+        },
+        "11": {
+          "title": "Authorization of Information",
+          "id": 4,
+          "attr": {
+            "parentConnector": {
+              "color": "#ff9900",
+              "themeAutoColor": "#ff9900"
+            },
+            "style": {
+              "fontMultiplier": 1.25
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Authorization for Access",
+              "id": 10,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "2": {
+              "title": "Management Of Medical Data",
+              "id": 11,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "3": {
+              "title": "interpretation  of Records",
+              "id": 12,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "4": {
+              "title": "authority of the health-related details ",
+              "id": 13,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            }
+          }
+        },
+        "21": {
+          "title": "Data Accuracy",
+          "id": 5,
+          "attr": {
+            "parentConnector": {
+              "color": "#ffdf55",
+              "themeAutoColor": "#ffdf55"
+            },
+            "style": {
+              "fontMultiplier": 1.25
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "patient past medical records",
+              "id": 14,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "past medication ",
+                  "id": 15,
+                  "attr": {
+                    "style": {
+                      "fontMultiplier": 1.25
+                    }
+                  }
+                },
+                "2": {
+                  "title": "allergies ",
+                  "id": 16,
+                  "attr": {
+                    "style": {
+                      "fontMultiplier": 1.25
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "31": {
+          "title": "Data Interpretability",
+          "id": 6,
+          "attr": {
+            "parentConnector": {
+              "color": "#0088b2",
+              "themeAutoColor": "#0088b2"
+            },
+            "style": {
+              "fontMultiplier": 1.25
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "analysis patterns",
+              "id": 17,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "2": {
+              "title": "data validation techniques",
+              "id": 18,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "attr": {
+    "theme": "productivity"
+  },
+  "title": "Ethical and Privacy Consideration"
+}

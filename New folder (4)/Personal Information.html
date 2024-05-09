@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Information Form</title>
+</head>
+<body>
+<h2>Personal Information</h2>
+<form>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required><br><br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="10-digit phone number" required><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <select id="day" name="day">
+        <option value="">Day</option>
+        <!-- Dynamically populate day options using JavaScript -->
+    </select>
+    <select id="month" name="month">
+        <option value="">Month</option>
+        <!-- Dynamically populate month options using JavaScript -->
+    </select>
+    <select id="year" name="year">
+        <option value="">Year</option>
+        <!-- Dynamically populate year options using JavaScript -->
+    </select>
+</form>
+
+<script>
+    // Populate day options
+    var daySelect = document.getElementById('day');
+    for (var i = 1; i <= 31; i++) {
+        var option = document.createElement('option');
+        option.text = i;
+        option.value = i;
+        daySelect.appendChild(option);
+    }
+
+    // Populate month options
+    var monthSelect = document.getElementById('month');
+    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    for (var i = 0; i < months.length; i++) {
+        var option = document.createElement('option');
+        option.text = months[i];
+        option.value = i + 1;
+        monthSelect.appendChild(option);
+    }
+
+    // Populate year options
+    var yearSelect = document.getElementById('year');
+    var currentYear = new Date().getFullYear();
+    for (var i = currentYear; i >= currentYear - 100; i--) {
+        var option = document.createElement('option');
+        option.text = i;
+        option.value = i;
+        yearSelect.appendChild(option);
+    }
+</script>
+</body>
+</html>

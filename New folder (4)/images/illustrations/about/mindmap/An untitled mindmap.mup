@@ -1,0 +1,178 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Resources",
+      "id": 1,
+      "attr": {
+        "parentConnector": {
+          "color": "#00534e",
+          "themeAutoColor": "#00534e"
+        },
+        "position": [
+          -155,
+          -19,
+          1
+        ],
+        "style": {
+          "width": 90
+        }
+      },
+      "ideas": {
+        "1": {
+          "title": " Report of Journals",
+          "id": 3,
+          "attr": {
+            "parentConnector": {
+              "color": "#00534e",
+              "themeAutoColor": "#00534e"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Medical Internet Research Journals",
+              "id": 10,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "2": {
+              "title": "Healthcare Information Related journals",
+              "id": 12,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "3": {
+              "title": "Peer-review Report",
+              "id": 13,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            }
+          }
+        },
+        "11": {
+          "title": "Article Discussions",
+          "id": 4,
+          "attr": {
+            "parentConnector": {
+              "color": "#ff9900",
+              "themeAutoColor": "#ff9900"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Healthcare Information Research Report ",
+              "id": 14,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "2": {
+              "title": "Subject Analysis",
+              "id": 15,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "3": {
+              "title": " initiative specialists",
+              "id": 17,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            }
+          }
+        },
+        "21": {
+          "title": "Industry Report",
+          "id": 5,
+          "attr": {
+            "parentConnector": {
+              "color": "#ffdf55",
+              "themeAutoColor": "#ffdf55"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Healthcare Management Society Analysis",
+              "id": 19,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "2": {
+              "title": "Healthcare  techniques Analysis",
+              "id": 20,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            }
+          }
+        },
+        "31": {
+          "title": "Regular Guidelines",
+          "id": 6,
+          "attr": {
+            "parentConnector": {
+              "color": "#0088b2",
+              "themeAutoColor": "#0088b2"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Data Privacy of Patient",
+              "id": 21,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "2": {
+              "title": "Health Portability Society Guidelines\n\n",
+              "id": 22,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            },
+            "3": {
+              "title": "Insurance Accountability Act\n\n",
+              "id": 23,
+              "attr": {
+                "style": {
+                  "fontMultiplier": 1.25
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "title": "Resources",
+  "attr": {
+    "theme": "productivity"
+  },
+  "links": []
+}
